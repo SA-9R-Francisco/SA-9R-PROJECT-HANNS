@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html Lang="eng">
+<head>
+    <meta charset="UTF-8">
+    
+<title> Q1 Project </title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="" alt="student logo" classs="log"
+            <ul class="nav-links">
+                <li><a href=""></a> About Me </li>
+                <li><a href=""></a>Works</li>
+                <li><a href=""></a>Contact Me</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://bluezooweb.com/wp-content/uploads/2024/11/Best-Websites-for-Web-Design-Inspiration-Brilliant-Examples-to-Boost-Your-Creativity-scaled.jpeg" alt="student photo" style="border: 2px dashed black" width="350px" class="pfp">
+        <h1>Hello, I'm Hanns!</h1>
+        <p>Aspiring Scientist</p>
+    </section>
+
+    <section id="about">
+
+        <h2>About me</h2>
+        <p>I like food</p>
+
+    </section>
+
+    <section id="works">
+        <div class="art-gallery"
+
+                <div class="art-piece">
+                
+                    <img src="https://bluezooweb.com/wp-content/uploads/2024/11/Best-Websites-for-Web-Design-Inspiration-Brilliant-Examples-to-Boost-Your-Creativity-scaled.jpeg" alt="Sample 1" style="border: 2px dashed black" width="350px">
+                    <p>App Reccomendations</p>
+                </div>
+                
+        <div class="code">
+            <ul>
+                <li> HTML & CSS Properties</li>
+                <li> App Recommendations</li>
+                <li> Lists, Hperlinks, Images</li>
+                <li> <a href="">View</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" placeholder="JohnDoe@gmail.com">
+                <br>
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">Facebook</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2" required>
+                    <label for="rate2">Twitter  </label>
+
+                    <input type="radio" id="rate3" name="rating" value="3" required>
+                    <label for="rate3">Discord</label>
+                </div>
+
+                <br>
+
+                <label>Interested In:</label>
+                <div class="checkbox-group">
+                        <input type="checkbox" id="action" name="genre" value="Action">
+                        <label for="action">Web Design</label>
+
+                        <input type="checkbox" id="science fiction" name="genre" value="Science Fiction">
+                        <label for="science fiction">Science</label>
+
+                        <input type="checkbox" id="comedy" name="genre" value="Comedy">
+                        <label for="comedy">Robotics</label>
+                </div>
+
+                <br>
+
+                <label for="platform">Rate my Portfolio</label>
+                <select id="platform" name="platform" required>
+                    <option value="">Select rating</option>
+                    <option value="1">👾</option>
+                    <option value="2">👾👾</option>
+                    <option value="3">👾👾👾</option>
+                    <option value="4">👾👾👾👾</option>
+                    <option value="5">👾👾👾👾👾</option>
+                </select>
+                
+                <br>
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="feedback here..." required></textarea>
+            
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+
+</html
